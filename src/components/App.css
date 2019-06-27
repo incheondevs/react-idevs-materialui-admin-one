@@ -1,0 +1,7 @@
+a, a:link, a:visited {
+  color: #304ffe;
+  text-decoration: none;
+}
+input#searchField:focus {
+  outline: none;
+}
