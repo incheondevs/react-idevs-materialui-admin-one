@@ -15,7 +15,7 @@
 
 Library | Spec.
 --- | ---
-[React.js](https://incheon.devs.co.kr) [[한국어](https://ko.reactjs.org/)] | 16.8.6+
+[React.js](https://reactjs.org/) [[한국어](https://ko.reactjs.org/)] | 16.8.6+
 [Material-UI](https://material-ui.com/) | 4.1.3+
 [React Router](https://reacttraining.com/react-router/web) | 5.0.1+
 
