@@ -40,21 +40,13 @@ const Tables = props => {
   return (
     <React.Fragment>
       <Typography variant="h3" noWrap>
-        테이블 (Tables)
+        다목적 테이블 리스트
       </Typography>
       <br />
       <Typography paragraph>
-        <a
-          href="https://material.io/tools/icons/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          머터리얼(Material) 아이콘
-        </a>
-        을 사용합니다. 이 관리자 페이지는는 Material-UI frameworks를 채택했기
-        때문이죠.
+        원하는 목적에 맞는 테이블 스타일을 도입해 사용해 보세요.
         <br />
-        (추후 다른 아이콘도 지원을 생각합니다.)
+        더욱 직관적이고 편리하게 확인할 수 있습니다.
       </Typography>
       <Paper className={classes.root}>
         <Table className={classes.table}>
