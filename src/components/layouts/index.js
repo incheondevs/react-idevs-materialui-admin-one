@@ -9,6 +9,7 @@ import Header from "./Header.js";
 import AsideNav from "./AsideNav.js";
 import HomePage from "../pages/Home.js";
 import TablesPage from "../pages/Tables.js";
+import IconsPage from "../pages/Icons.js";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -38,6 +39,7 @@ const Layouts = props => {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/tables" component={TablesPage} />
+          <Route exact path="/icons" component={IconsPage} />
         </Switch>
       </main>
     </div>

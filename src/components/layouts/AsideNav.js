@@ -13,11 +13,12 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
   },
   drawer: {
+    minHeight: "900px",
+    boxShadow: "0 0 15px rgba(25, 25, 25, 0.5)",
     [theme.breakpoints.up('sm')]: {
       width: drawerWidth,
       flexShrink: 0,
     },
-    boxShadow: "0 0 15px rgba(25, 25, 25, 0.5)",
   },
   menuButton: {
     marginRight: theme.spacing(2),
