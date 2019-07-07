@@ -39,7 +39,12 @@ $ npm run start
 $ yarn start
 ```
 
+### 참여 가이드
+
+- 저희 프로젝트는 git-flow와 github-pull-request를 사용하여 누구에게나 프로젝트 참여의 가능성을 열어두고 있습니다.
+- 자세한 방법은 [Wiki-Participation Guide](https://github.com/incheonjs/react-idevs-materialui-admin-one/wiki/Participation-Guide)를 참고해 주세요.
+
 ### Contact us
 
-- 🏠 [Incheon Dev&#39;s Website](https://incheon.devs.co.kr)
-- 💬 [Incheon Dev&#39; 카톡오픈챗](https://open.kakao.com/o/gHsHtdpb)
+🏠 [Incheon Dev&#39;s Website](https://incheon.devs.co.kr)
+💬 [Incheon Dev&#39;s 카톡채팅방](https://open.kakao.com/o/gHsHtdpb)
