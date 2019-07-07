@@ -18,7 +18,7 @@ const CustomTable = (props)=> (
     <React.Fragment>
       
       <Paper className={props.classes.paper}>
-        <Table className={props.classes.table} size="">
+        <Table className={props.classes.table}>
           <TableHead>
             <TableRow>
               <TableCell className={props.classes.headerCell}>클래스 명</TableCell>
