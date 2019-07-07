@@ -7,6 +7,7 @@ import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import CustomeTable from "../atoms/customTable"
 import grey from '@material-ui/core/colors/grey';
+import blue from '@material-ui/core/colors/blue';
 // 컴포넌트 분리 참조 사이트  - https://ibrahimovic.tistory.com/33
 // 컴포넌트 데이터 전달 참조 사이트 - https://ibrahimovic.tistory.com/34
 
@@ -74,7 +75,11 @@ const useStyles = makeStyles(theme => ({
     textAlign: "center",
     paddingTop: "4px",
     '&:hover' :{
-      border: "1px solid grey"
+      borderColor : blue[500],
+      border: "3px solid ",
+      cursor : "pointer",
+      color : blue[500],
+      fontWeight:"600"
     }
     
   },
