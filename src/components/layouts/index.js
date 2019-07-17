@@ -4,12 +4,14 @@ import { Route, Switch } from "react-router-dom";
 // Material-ui 컴포넌트들
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { makeStyles } from "@material-ui/core/styles";
-// others
+// layout 컴포넌트
 import Header from "./Header.js";
 import AsideNav from "./AsideNav.js";
+// page 컴포넌트
 import HomePage from "../pages/Home.js";
 import TablesPage from "../pages/Tables.js";
 import IconsPage from "../pages/Icons.js";
+import FontsPage from "../pages/Fonts";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -40,6 +42,7 @@ const Layouts = props => {
           <Route exact path="/" component={HomePage} />
           <Route exact path="/tables" component={TablesPage} />
           <Route exact path="/icons" component={IconsPage} />
+          <Route exact path="/fonts" component={FontsPage} />
         </Switch>
       </main>
     </div>
