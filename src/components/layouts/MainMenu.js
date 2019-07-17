@@ -15,6 +15,7 @@ import TableIcon from "@material-ui/icons/TableChart";
 import ChartIcon from "@material-ui/icons/ShowChart";
 import PagesIcon from "@material-ui/icons/Pages";
 import IconsIcon from "@material-ui/icons/Mood";
+import FontsIcon from "@material-ui/icons/FontDownload";
 // others
 import LogoImage from "../../assets/images/logo.png";
 
@@ -99,6 +100,16 @@ const ResponsiveDrawer = props => {
             </ListItemIcon>
             <ListItemText>
               <Typography className={classes.mainmenu}>아이콘들</Typography>
+            </ListItemText>
+          </ListItem>
+        </NavLink>
+        <NavLink to="/fonts" activeClassName="selected">
+          <ListItem className={classes.mainmenuWrap} button>
+            <ListItemIcon>
+              <FontsIcon className={classes.mainmenu} />
+            </ListItemIcon>
+            <ListItemText>
+              <Typography className={classes.mainmenu}>폰트</Typography>
             </ListItemText>
           </ListItem>
         </NavLink>
